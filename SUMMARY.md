@@ -9,3 +9,8 @@
 * [Covered Events](basic-concepts/covered-events.md)
 * [Withdrawal](basic-concepts/withdrawal.md)
 * [Claims Process](basic-concepts/claims-process.md)
+* [Governance](basic-concepts/governance.md)
+
+## Developers
+
+* [Deployed Contracts](developers/deployed-contracts.md)
