@@ -4,13 +4,13 @@ description: Description of Bedrock Safes
 
 # Safes
 
-Bedrock stores assets deposited into the protocol in a safe. Each safe has unique criteria that determine what would be considered a claimable event. At the moment the following Safes are supported:&#x20;
+Bedrock stores assets deposited into the protocol in a Safe. Each Safe has unique criteria that determine what would be considered a claimable event. At the moment the following Safes are supported:&#x20;
 
 * USDC&#x20;
 * USDT
 * DAI
 
-Each safe will outline at what price point a depeg event will quality for a claim.&#x20;
+Each safe will outline at what price point a De-peg event will quality for a claim.&#x20;
 
 
 
