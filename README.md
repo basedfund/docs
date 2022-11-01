@@ -1,4 +1,5 @@
 ---
+description: Bedrocks Vision and problem statement
 cover: .gitbook/assets/Bedrock Twitter Banner.png
 coverY: 0
 ---
