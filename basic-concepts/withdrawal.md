@@ -12,6 +12,19 @@ The values for both are controlled by governance that controls how much the prot
 
 The following illustrates how a Withdraw can occur.&#x20;
 
+Assume the following:
+
+* _**A** _ is the amount of the claim request.
+* _D_ is the amount delay a user is willing to accept to withdraw
+* _**Pf**_ is the fee free period in hours, withdrawing after this time limit incurs no fees &#x20;
+* **safeXXX** represents a Bedrock safe and xxx would represent an asset like Dai e.g. safe(Dai)
+
+1. A user sends a withdraw request to safeDai with \[amount A , delay D]
+2. safeDai checks the users balance and reduces it by A if the request is valid
+3. Depending on the Withdraw delay chosen (_**D**_) the protocol will calculate a fee.
+   1. Fee = **A** \* max(0(**Pf**-**D**/**Pf**))^2
+   2.
+
 
 
 
