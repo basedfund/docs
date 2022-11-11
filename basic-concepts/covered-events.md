@@ -12,7 +12,7 @@ While Bedrock aims to cover a wide range of events we would prefer to focus on [
 
 We are starting our V1 by measuring and tracking pricing events, specifically as they relate to Stable coins like USDC, USDT and Dai. These assets are typically designed to be pegged to the value of a currency by being backed by outside assets or other cryptocurrencies at some predetermined ratio.  The first available Bedrock vaults will cover depositors of these assets against a depeg event that would lower the value of the deposited asset against its target currency.&#x20;
 
-Hack pricing events can be represented as _R if the price of an as asset goes below R a user may file a claim._&#x20;
+
 
 #### Example&#x20;
 
