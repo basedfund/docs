@@ -37,7 +37,7 @@ Bedrock is currently designed to work on **Ethereum**. While we envision support
 
 #### Progress
 
-BedRock is currently alpha software and is not publicly available.\
+BedRock is currently beta software and is not publicly available.\
 We are actively looking for contributors with experience in Solidity, React and Community Design.
 
 ####
