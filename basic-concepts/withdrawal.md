@@ -34,17 +34,17 @@ This is a unique model, but since coverage for some of the products has no expir
 The Gherkin-like summary tries to use an example to explain the impact on the withdrawer.&#x20;
 
 ```applescript
-WITHDRAW_FEE_PARAM is 0.05 as a constant value
-  If a user wants to withdraw 1000 USDC in one day
-    withdraw_fee_percent = 0.05 / 1 (5%)
-    so he will pay 50 USDC as a fee and withdraw 950 USDC
-  If user wants to withdraw 1000 USDC in two days
-    withdraw_fee_percent = 0.05 / 2 (2.5%)
-    so he will pay 25 USDC as a fee and withdraw 975 USDC
-  If user wants to withdraw 1000 USDC in three days
-    withdraw_fee_percent = 0.05 / 3 (1.667%)
-    so he will pay 16.67 USDC as a fee and withdraw 983.33 USDC
-  If user wants to withdraw 1000 USDC in four days
+FEE_FREE_PERIOD (Pf) is 96 (= 4 days) as a constant value
+  If user wants to withdraw 1000 USDC in 24 hours
+    withdraw_fee_percent = ((96 - 24) / 96) ^ 2 (56.25%)
+    so he will pay 562.5 USDC as a fee and withdraw 437.5 USDC
+  If user wants to withdraw 1000 USDC in 48 hours
+    withdraw_fee_percent = ((96 - 48) / 96) ^ 2 (25%)
+    so he will pay 250 USDC as a fee and withdraw 750 USDC
+  If user wants to withdraw 1000 USDC in 72 hours
+    withdraw_fee_percent = ((96 - 72) / 96) ^ 2 (6.25%)
+    so he will pay 62.5 USDC as a fee and withdraw 937.5 USDC
+  If user wants to withdraw 1000 USDC in 96 hours (or longer than it)
     withdraw_fee_percent = 0.00
     so he will pay 0.00 USDC as a fee and withdraw 1000 USDC //(Excluing Gas fees)
 ```
