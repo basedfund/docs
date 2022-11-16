@@ -32,6 +32,6 @@ Assume the following
    4. If the Total amount of unhacked assets is zero, claiming will fail.&#x20;
 5. For facilitating a claim Bedrock takes a fee often labeled as _**f**_ currently capped at 5% of the claim value. The fee is sourced from the claim requester and half of this fee goes to a community pool, the other half is earned by the protocol.&#x20;
 6. In order to ensure the depositor is not only receiving devalued assets, they will also receive alternative assets controlled by the protocol as compensation. An example would be if 100 Dai is being requested and Dai has been devalued, the protocol will source alternative stable-coins such as USDT and USDC as compensation. This leads to the most common question "What Is the impact on unhacked depositors?" This is best illustrated as follows:&#x20;
-   1. An unhacked depositors balance = $$(A - F) * (unhackedUserBalance / totalSupply(allSafes)$$_****_
+   1. An unhacked depositors balance will be increased by = $$(A - F) * (unhackedUserBalance / totalSupply(allSafes)$$_****_
    2. _As compensation the users that supplied capital are reimbursed with Bedrock tokens_
 
