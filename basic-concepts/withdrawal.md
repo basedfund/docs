@@ -22,7 +22,7 @@ Assume the following:
 1. A user sends a withdraw request to safeDai with \[amount A , delay D]
 2. safeDai checks the users balance and reduces it by A if the request is valid
 3. Depending on the Withdraw delay chosen (_**D**_) the protocol will calculate a fee.
-   1. **Fee** = **A** \* max(0(**Pf**-**D**/**Pf**))^2
+   1. $$fee = A * max(0(Pf-D /Pf))^2$$
    2. If a fee is sourced from the user withdrawing  half of this fee goes to a community pool, the other half is earned by the protocol.&#x20;
 4. After **D** hours have passed the user can source the requested withdraw amount which can be summarized as _**A - Fee**_.&#x20;
 5. Users who can wait several days to withdraw funds are subject to **zero fees**.&#x20;
