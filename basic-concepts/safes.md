@@ -25,7 +25,7 @@ Safes may or may not have fees associated to them including:&#x20;
 **A claim fee:** A fee charged by the protocol to process a claimable event. Typically represented as a percentage of your claim amount.&#x20;
 
 {% hint style="info" %}
-<pre><code><strong>A safe may also contain an expirty date after which coverage for a particula
+<pre><code><strong>A safe may also contain an expiry date after which coverage for a particular
 </strong>asset is no longer valid. This is not currently used in any active Safes. </code></pre>
 {% endhint %}
 
