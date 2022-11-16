@@ -16,7 +16,7 @@ Assume the following
 * **safeXXX** represents a Bedrock safe and xxx would represent an asset like Dai e.g. safe(Dai)
 * _**allSafes**_ represents the value across all Bedrock safes
 * **f** is the claim fee&#x20;
-* _**Pc** is the period of time a claim id locked._&#x20;
+* _**Pc** is the period of time a claim amount is locked._&#x20;
 
 ####
 

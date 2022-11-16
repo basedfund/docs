@@ -15,7 +15,7 @@ The following illustrates how a Withdraw can occur.&#x20;
 Assume the following:
 
 * _**A** _ is the amount of the claim request.
-* _D_ is the amount delay a user is willing to accept to withdraw
+* _**D** _ is the amount delay a user is willing to accept to withdraw
 * _**Pf**_ is the fee free period in hours, withdrawing after this time limit incurs no fees &#x20;
 * **safeXXX** represents a Bedrock safe and xxx would represent an asset like Dai e.g. safe(Dai)
 
