@@ -24,12 +24,13 @@ Assume the following
 1. After a [claimable event ](covered-events.md)occurs such as the the price of a deposited asset decreasing by 50%,  a user can submit a claim request to the Safe holding the asset. &#x20;
 2. The protocol will validate the De-peg event by validating price history from the supported protocols essentially checking to see if the an asset like _Dai < **R**_
 3. The protocol will then validate that the users wallet is a valid depositor into the Safe.&#x20;
-4. Once confirmed the protocol will lock platform assets to calculate a reimbursement amount following a calculation based on his/her deposited assets and all available assets controlled by Bedrock. A sample calculation follows:&#x20;
-   1. _**L = A \* (totalSupply(safeDai)/totalSupply(allSafes)**_
-5. The reimbursement amount will be a proportional share of the users assets of based on the Total value locked in the protocol minus fees.&#x20;
-6. The protocol will calculate and validate that the claimer has **A**+**L** (amount + LockedAmount) and reduce their balance accordingly. The amount is not available immediately and will be subject to a claims lock period presented as _**Pc.**_ The claim lock period is represented in hours.
-7. For facilitating a claim Bedrock takes a fee often labeled as _**f**_ currently capped at 5% of the claim value. The fee is sourced from the claim requester and half of this fee goes to a community pool, the other half is earned by the protocol.&#x20;
-8. In order to ensure the depositor is not only receiving devalued assets, they will also receive alternative assets controlled by the protocol as compensation. An example would be if 100 Dai is being requested and has been devalued, the protocol will source alternative stable-coins such as USDT and USDC as compensation. This leads to the most common question what I the impact on unhacked depositors, this is best illustrated as follows:&#x20;
-   1. An unhacked depositors balance = (A - F) \* (**unhacked user balance** / _**totalSupply(allSafes)**_
+4. The protocol will calculate and validate that the claimer has enough funds to perform a claim. This is calculated as **A**+**L** (amount + LockedAmount).  The Locked amount is calculated as follows:&#x20;
+   1. $$L = A * ( totalSupply(safeDai) / (totalSupply(allSafes) - totalSupply(safeDai)) )$$_****_
+   2. Bedrock will then reduce their balance by **A** but keep **L** Locked for a period of time. The amount is not available immediately and will be subject to a claims lock period presented as _**Pc.**_ The claim lock period is represented in hours.
+   3. The Locked amount can be accessed after the time configured in **Pc** has passed. At this point users or admins can trigger the required _releaseLockedAsset_ function to finalize reimbursement.&#x20;
+   4. If the Total amount of unhacked assets is zero, claiming will fail.&#x20;
+5. For facilitating a claim Bedrock takes a fee often labeled as _**f**_ currently capped at 5% of the claim value. The fee is sourced from the claim requester and half of this fee goes to a community pool, the other half is earned by the protocol.&#x20;
+6. In order to ensure the depositor is not only receiving devalued assets, they will also receive alternative assets controlled by the protocol as compensation. An example would be if 100 Dai is being requested and Dai has been devalued, the protocol will source alternative stable-coins such as USDT and USDC as compensation. This leads to the most common question "What Is the impact on unhacked depositors?" This is best illustrated as follows:&#x20;
+   1. An unhacked depositors balance = $$(A - F) * (unhackedUserBalance / totalSupply(allSafes)$$_****_
    2. _As compensation the users that supplied capital are reimbursed with Bedrock tokens_
 
