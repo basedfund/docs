@@ -15,8 +15,8 @@ Assume the following
 * _**L**_ is the lock amount, or the amount locked I order to prevent a bank run&#x20;
 * **safeXXX** represents a Bedrock safe and xxx would represent an asset like Dai e.g. safe(Dai)
 * _**allSafes**_ represents the value across all Bedrock safes
-* **f** is the claim fee&#x20;
-* _**Pc** is the period of time a claim amount is locked._&#x20;
+* **F** is the claim fee&#x20;
+* _**Pc** is the period of time a claim amount is locked. This value is constant._
 
 ####
 
