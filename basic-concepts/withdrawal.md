@@ -4,7 +4,7 @@ description: How Withdrawals work
 
 # Withdrawal
 
-Users can deposit and withdraw assets into Bedrock at any time as long as a [claimable event](platforms.md) is not   occurring. Users must connect their wallet to the dApp , identify the Safe they deposited funds into and choose to Withdraw.&#x20;
+Users can deposit and withdraw assets into Bedrock at any time as long as a [claimable event](platforms-and-integrations.md) is not   occurring. Users must connect their wallet to the dApp , identify the Safe they deposited funds into and choose to Withdraw.&#x20;
 
 In oder to avoid a bank run during a claimable event we have implemented a withdraw delay. The protocol includes a fee free period (labeled as _**Pf**_) and a withdraw delay that helps our contracts understand when to avoid charging a fee.
 

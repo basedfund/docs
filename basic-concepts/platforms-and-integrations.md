@@ -2,7 +2,7 @@
 description: What platforms does Bedrock integrate with
 ---
 
-# Platforms
+# Platforms & Integrations
 
 In order to power the strategies used on Bedrock we integrate with various DeFi platforms. Not all of the following are live but are in progress.&#x20;
 

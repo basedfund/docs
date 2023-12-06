@@ -5,8 +5,8 @@
 
 ## Basic concepts
 
-* [Strategies](basic-concepts/strategies.md)
-* [Platforms](basic-concepts/platforms.md)
+* [Strategies & Fees](basic-concepts/strategies-and-fees.md)
+* [Platforms & Integrations](basic-concepts/platforms-and-integrations.md)
 * [Withdrawal](basic-concepts/withdrawal.md)
 * [Claims Process](basic-concepts/claims-process.md)
 * [Swapping](basic-concepts/swapping.md)

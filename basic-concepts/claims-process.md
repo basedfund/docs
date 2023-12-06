@@ -4,7 +4,7 @@ description: An outline of the claims process
 
 # Claims Process
 
-If a [claimable event](platforms.md) for a given vault has occurred then the depositor may proceed to request a claim with the protocol. Claims can be processed directly via interactions with our smart contracts or via our dApp.&#x20;
+If a [claimable event](platforms-and-integrations.md) for a given vault has occurred then the depositor may proceed to request a claim with the protocol. Claims can be processed directly via interactions with our smart contracts or via our dApp.&#x20;
 
 The following steps summarize the process for most claims:&#x20;
 
@@ -22,7 +22,7 @@ Assume the following
 
 #### Validation and reimbursement&#x20;
 
-1. After a [claimable event ](platforms.md)occurs such as the the price of a deposited asset decreasing by 50%,  a user can submit a claim request to the Safe holding the asset. &#x20;
+1. After a [claimable event ](platforms-and-integrations.md)occurs such as the the price of a deposited asset decreasing by 50%,  a user can submit a claim request to the Safe holding the asset. &#x20;
 2. The protocol will validate the De-peg event by validating price history from the supported protocols essentially checking to see if the an asset like _Dai < **R**_
 3. The protocol will then validate that the users wallet is a valid depositor into the Safe.&#x20;
 4. The protocol will calculate and validate that the claimer has enough funds to perform a claim. This is calculated as **A**+**L** (amount + LockedAmount).  The Locked amount is calculated as follows:&#x20;
