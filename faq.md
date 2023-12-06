@@ -6,18 +6,20 @@ description: Frequently asked questions related to Bedrock protocol
 
 #### What is Bedrock Protocol?
 
-Bedrock is a protocol built on Ethereum focused on providing protection against smart contract risk on decentralized financial platforms. It is inspired by reciprocal insurance exchanges that enable parties to insure each other. The protocol eliminates the need for trusted intermediaries and opaque fees.
+Bedrock is a productl built on Ethereum focused on providing access to hedgefund like strategies within the world of DeFi.&#x20;
 
 #### How does Bedrock work?
 
-Deposit any of the supported DeFi assets into one of our **Bedrock Safes** . If a hack occurs while your assets are locked in a safe, you are eligible to file a claim. Bedrock will validate if your protocol has experienced a smart contract hack or depeg event and reimburse you with your proportional share based on the total value locked in the protocol. Payments are currently paid in a basket of assets within our pools.\
+Deposit any of the supported DeFi assets into one of our **Bedrock Strategies** . We will then use those funds to actively trade on your behalf by following one of the live strategies available to Investors on the platform. \
 \
-Users can withdraw assets from the protocol at any time except when the system detects an active hack. In order to avoid malicious actors we lock assets with a withdraw delay, users who need funds immediately are charged a fee.&#x20;
+Users can withdraw assets from the protocol during one of the redemption windows. Each strategy has a fee model that is displayed to users ranging from 1% of assets under management up to 20% of the return.&#x20;
 
-#### What protocols will Bedrock support?
+In order to avoid malicious actors we lock assets with a withdraw delay.
 
-We are prioritizing the most popular stable coins initially then proceeding to DeFi protocols large amounts of value locked. Starting with stables coins like USDC , DAI and USDT and then lending protocols like _Aave and Compound_. The Bedrock protocol does not limit us to these types of platforms and we envision supporting various triggers for our Safes based on the needs of the crypto community.
+#### What type of assets will Bedrock support?
+
+We are prioritizing the most popular stable coins initially then proceeding to secure DeFi assets with large amounts of value locked.&#x20;
 
 #### Is there a token?
 
-There is no publicly available token at this moment in time. We are planning to reward early adopters and contributors via our ERC-20 token once our governance model has been finalized.
+There is no publicly available token at this moment in time. We are planning to reward early adopters and contributors via a ERC-20 token once our governance model has been finalized.
