@@ -9,7 +9,6 @@
 * [Platforms & Integrations](basic-concepts/platforms-and-integrations.md)
 * [Withdrawal](basic-concepts/withdrawal.md)
 * [Claims Process](basic-concepts/claims-process.md)
-* [Swapping](basic-concepts/swapping.md)
 * [Governance](basic-concepts/governance.md)
 
 ## Developers
