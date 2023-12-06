@@ -6,7 +6,7 @@
 ## Basic concepts
 
 * [Strategies](basic-concepts/strategies.md)
-* [Covered Events](basic-concepts/covered-events.md)
+* [Platforms](basic-concepts/platforms.md)
 * [Withdrawal](basic-concepts/withdrawal.md)
 * [Claims Process](basic-concepts/claims-process.md)
 * [Swapping](basic-concepts/swapping.md)
