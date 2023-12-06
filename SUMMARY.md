@@ -5,7 +5,7 @@
 
 ## Basic concepts
 
-* [Safes](basic-concepts/safes.md)
+* [Strategies](basic-concepts/strategies.md)
 * [Covered Events](basic-concepts/covered-events.md)
 * [Withdrawal](basic-concepts/withdrawal.md)
 * [Claims Process](basic-concepts/claims-process.md)
