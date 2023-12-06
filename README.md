@@ -1,7 +1,7 @@
 ---
 description: Bedrocks Vision and a summary of the core product.
 cover: .gitbook/assets/Twitter Banner (1).png
-coverY: 26.549604916593506
+coverY: 0
 ---
 
 # Introduction to Bedrock
